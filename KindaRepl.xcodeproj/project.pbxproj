@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B59CCD918F1D15A00C1A2C0 /* libTosti.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B59CCCE18F1D14300C1A2C0 /* libTosti.a */; };
+		2B59CCDA18F1D15D00C1A2C0 /* libCocoaHTTPServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B59CCC218F1D12000C1A2C0 /* libCocoaHTTPServer.a */; };
+		2B59CCDF18F1D21800C1A2C0 /* RunCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59CCDC18F1D21800C1A2C0 /* RunCommand.m */; };
+		2B59CCE018F1D21800C1A2C0 /* RunCommandResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59CCDE18F1D21800C1A2C0 /* RunCommandResponse.m */; };
+		2BCAA97A18F1CF9000A8529C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCAA97918F1CF9000A8529C /* Foundation.framework */; };
+		2BCAA97F18F1CF9000A8529C /* KindaRepl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BCAA97E18F1CF9000A8529C /* KindaRepl.h */; };
+		2BCAA98118F1CF9000A8529C /* KindaRepl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCAA98018F1CF9000A8529C /* KindaRepl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B59CCC118F1D12000C1A2C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B59CCBD18F1D12000C1A2C0 /* CocoaHTTPServer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2BAE41C818F17713002E969A;
+			remoteInfo = CocoaHTTPServer;
+		};
+		2B59CCCD18F1D14300C1A2C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B59CCC318F1D14300C1A2C0 /* Tosti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B37699EE162962EA0050BAD0;
+			remoteInfo = TostiTouchStatic;
+		};
+		2B59CCCF18F1D14300C1A2C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B59CCC318F1D14300C1A2C0 /* Tosti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B3769A01162962FA0050BAD0;
+			remoteInfo = TostiCocoaStatic;
+		};
+		2B59CCD118F1D14300C1A2C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B59CCC318F1D14300C1A2C0 /* Tosti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B3769A8A16298E200050BAD0;
+			remoteInfo = TostiTouchTest;
+		};
+		2B59CCD318F1D14300C1A2C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B59CCC318F1D14300C1A2C0 /* Tosti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B3769AA116298E310050BAD0;
+			remoteInfo = TostiCocoaTest;
+		};
+		2B59CCD518F1D14300C1A2C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B59CCC318F1D14300C1A2C0 /* Tosti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B3769A39162969620050BAD0;
+			remoteInfo = TostiTouchDemo;
+		};
+		2B59CCD718F1D14300C1A2C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B59CCC318F1D14300C1A2C0 /* Tosti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B39C0AC21630BE5F001BBAE6;
+			remoteInfo = TostiCocoaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2BCAA97418F1CF9000A8529C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2BCAA97F18F1CF9000A8529C /* KindaRepl.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B59CCBD18F1D12000C1A2C0 /* CocoaHTTPServer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaHTTPServer.xcodeproj; path = CocoaHTTPServer/CocoaHTTPServer.xcodeproj; sourceTree = "<group>"; };
+		2B59CCC318F1D14300C1A2C0 /* Tosti.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tosti.xcodeproj; path = Tosti/Tosti.xcodeproj; sourceTree = "<group>"; };
+		2B59CCDB18F1D21800C1A2C0 /* RunCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunCommand.h; sourceTree = "<group>"; };
+		2B59CCDC18F1D21800C1A2C0 /* RunCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunCommand.m; sourceTree = "<group>"; };
+		2B59CCDD18F1D21800C1A2C0 /* RunCommandResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunCommandResponse.h; sourceTree = "<group>"; };
+		2B59CCDE18F1D21800C1A2C0 /* RunCommandResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunCommandResponse.m; sourceTree = "<group>"; };
+		2BCAA97618F1CF9000A8529C /* libKindaRepl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKindaRepl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCAA97918F1CF9000A8529C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BCAA97D18F1CF9000A8529C /* KindaRepl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KindaRepl-Prefix.pch"; sourceTree = "<group>"; };
+		2BCAA97E18F1CF9000A8529C /* KindaRepl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KindaRepl.h; sourceTree = "<group>"; };
+		2BCAA98018F1CF9000A8529C /* KindaRepl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KindaRepl.m; sourceTree = "<group>"; };
+		2BCAA98718F1CF9000A8529C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2BCAA98A18F1CF9000A8529C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BCAA97318F1CF9000A8529C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B59CCDA18F1D15D00C1A2C0 /* libCocoaHTTPServer.a in Frameworks */,
+				2B59CCD918F1D15A00C1A2C0 /* libTosti.a in Frameworks */,
+				2BCAA97A18F1CF9000A8529C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B59CCBE18F1D12000C1A2C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B59CCC218F1D12000C1A2C0 /* libCocoaHTTPServer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B59CCC418F1D14300C1A2C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B59CCCE18F1D14300C1A2C0 /* libTosti.a */,
+				2B59CCD018F1D14300C1A2C0 /* libTosti.a */,
+				2B59CCD218F1D14300C1A2C0 /* TostiTouchTest.octest */,
+				2B59CCD418F1D14300C1A2C0 /* TostiCocoaTest.octest */,
+				2B59CCD618F1D14300C1A2C0 /* TostiTouchDemo.app */,
+				2B59CCD818F1D14300C1A2C0 /* TostiCocoaDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BCAA96D18F1CF9000A8529C = {
+			isa = PBXGroup;
+			children = (
+				2B59CCC318F1D14300C1A2C0 /* Tosti.xcodeproj */,
+				2B59CCBD18F1D12000C1A2C0 /* CocoaHTTPServer.xcodeproj */,
+				2BCAA97B18F1CF9000A8529C /* KindaRepl */,
+				2BCAA97818F1CF9000A8529C /* Frameworks */,
+				2BCAA97718F1CF9000A8529C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BCAA97718F1CF9000A8529C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BCAA97618F1CF9000A8529C /* libKindaRepl.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BCAA97818F1CF9000A8529C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BCAA97918F1CF9000A8529C /* Foundation.framework */,
+				2BCAA98718F1CF9000A8529C /* XCTest.framework */,
+				2BCAA98A18F1CF9000A8529C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BCAA97B18F1CF9000A8529C /* KindaRepl */ = {
+			isa = PBXGroup;
+			children = (
+				2B59CCDB18F1D21800C1A2C0 /* RunCommand.h */,
+				2B59CCDC18F1D21800C1A2C0 /* RunCommand.m */,
+				2B59CCDD18F1D21800C1A2C0 /* RunCommandResponse.h */,
+				2B59CCDE18F1D21800C1A2C0 /* RunCommandResponse.m */,
+				2BCAA97E18F1CF9000A8529C /* KindaRepl.h */,
+				2BCAA98018F1CF9000A8529C /* KindaRepl.m */,
+				2BCAA97C18F1CF9000A8529C /* Supporting Files */,
+			);
+			path = KindaRepl;
+			sourceTree = "<group>";
+		};
+		2BCAA97C18F1CF9000A8529C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BCAA97D18F1CF9000A8529C /* KindaRepl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BCAA97518F1CF9000A8529C /* KindaRepl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCAA99918F1CF9000A8529C /* Build configuration list for PBXNativeTarget "KindaRepl" */;
+			buildPhases = (
+				2BCAA97218F1CF9000A8529C /* Sources */,
+				2BCAA97318F1CF9000A8529C /* Frameworks */,
+				2BCAA97418F1CF9000A8529C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KindaRepl;
+			productName = KindaRepl;
+			productReference = 2BCAA97618F1CF9000A8529C /* libKindaRepl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BCAA96E18F1CF9000A8529C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = tanchey;
+			};
+			buildConfigurationList = 2BCAA97118F1CF9000A8529C /* Build configuration list for PBXProject "KindaRepl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BCAA96D18F1CF9000A8529C;
+			productRefGroup = 2BCAA97718F1CF9000A8529C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2B59CCBE18F1D12000C1A2C0 /* Products */;
+					ProjectRef = 2B59CCBD18F1D12000C1A2C0 /* CocoaHTTPServer.xcodeproj */;
+				},
+				{
+					ProductGroup = 2B59CCC418F1D14300C1A2C0 /* Products */;
+					ProjectRef = 2B59CCC318F1D14300C1A2C0 /* Tosti.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2BCAA97518F1CF9000A8529C /* KindaRepl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2B59CCC218F1D12000C1A2C0 /* libCocoaHTTPServer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocoaHTTPServer.a;
+			remoteRef = 2B59CCC118F1D12000C1A2C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2B59CCCE18F1D14300C1A2C0 /* libTosti.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTosti.a;
+			remoteRef = 2B59CCCD18F1D14300C1A2C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2B59CCD018F1D14300C1A2C0 /* libTosti.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTosti.a;
+			remoteRef = 2B59CCCF18F1D14300C1A2C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2B59CCD218F1D14300C1A2C0 /* TostiTouchTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TostiTouchTest.octest;
+			remoteRef = 2B59CCD118F1D14300C1A2C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2B59CCD418F1D14300C1A2C0 /* TostiCocoaTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TostiCocoaTest.octest;
+			remoteRef = 2B59CCD318F1D14300C1A2C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2B59CCD618F1D14300C1A2C0 /* TostiTouchDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TostiTouchDemo.app;
+			remoteRef = 2B59CCD518F1D14300C1A2C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2B59CCD818F1D14300C1A2C0 /* TostiCocoaDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TostiCocoaDemo.app;
+			remoteRef = 2B59CCD718F1D14300C1A2C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BCAA97218F1CF9000A8529C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCAA98118F1CF9000A8529C /* KindaRepl.m in Sources */,
+				2B59CCDF18F1D21800C1A2C0 /* RunCommand.m in Sources */,
+				2B59CCE018F1D21800C1A2C0 /* RunCommandResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2BCAA99718F1CF9000A8529C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BCAA99818F1CF9000A8529C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BCAA99A18F1CF9000A8529C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KindaRepl.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KindaRepl/KindaRepl-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SRCROOT/CocoaHTTPServer/CocoaHTTPServer/,
+					$SRCROOT/Tosti/Library/,
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2BCAA99B18F1CF9000A8529C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KindaRepl.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KindaRepl/KindaRepl-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SRCROOT/CocoaHTTPServer/CocoaHTTPServer/,
+					$SRCROOT/Tosti/Library/,
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BCAA97118F1CF9000A8529C /* Build configuration list for PBXProject "KindaRepl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCAA99718F1CF9000A8529C /* Debug */,
+				2BCAA99818F1CF9000A8529C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCAA99918F1CF9000A8529C /* Build configuration list for PBXNativeTarget "KindaRepl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCAA99A18F1CF9000A8529C /* Debug */,
+				2BCAA99B18F1CF9000A8529C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BCAA96E18F1CF9000A8529C /* Project object */;
+}

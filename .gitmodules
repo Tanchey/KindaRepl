@@ -1,0 +1,3 @@
+[submodule "Tosti"]
+	path = Tosti
+	url = https://github.com/leonardvandriel/Tosti.git
