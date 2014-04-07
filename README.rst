@@ -1,7 +1,7 @@
 KindaRepl
 =========
 
-*Plug-n-Play lightweight http server that interprets ObjC code in the app environment*
+*Plug-n-Play http server that interprets ObjC code in the app environment*
 
 
 About
