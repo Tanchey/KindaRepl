@@ -1,4 +1,4 @@
-ndaRepl
+KindaRepl
 =========
 
 *Plug-n-Play lightweight http server that interprets ObjC code in the app environment*
