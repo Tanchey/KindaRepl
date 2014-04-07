@@ -26,6 +26,7 @@ Connecting
 ----------
 
 Since server is running on port 8080, one can check the connection for example using favorite browser or curl. If one uses iPhone simulator one can run::
+
     curl http://127.0.0.1:8080/
 
 And get an error 501 (as the "/" path is not implemented).
